@@ -1,0 +1,127 @@
+body{
+	margin: 0px;
+	background-color: white;
+}
+.a{
+	text-decoration: none;
+}
+
+.BestOnYou{
+	font-size: 40px;
+	margin-left: 50%;
+	font-family: "Charmonman", cursive;
+	color: black;
+	text-decoration: none;
+}
+
+.menu{
+	display: flex;
+	background-color: #CD5C5C;
+	height: 2%;
+	width: 100%;
+	margin: 0%;	
+}
+
+ul{
+	list-style: none;
+	margin: 0%;
+}
+
+.menu *{
+	margin: 0;
+	padding: 0;
+}
+
+.menu > ul{
+display: flex;
+justify-content: center;
+width: 100%;	
+}
+
+.menu > ul li a{
+	display: block;
+	font-size: 24px;
+	color: #454547;
+	text-decoration: none;
+	transition: all 0.3s ease;
+}
+
+.menu > ul li{
+	position: relative;
+	margin: 25px;
+}
+
+.menu li a:hover{
+	background: #fff;
+	color: #A52A2A;
+	box-shadow: 1px 5px 10px -5px black;
+	transition: all 0.3s ease;
+}
+
+.menu li ul{
+	position: absolute;
+	min-width: 150px;
+	display: none;
+	background-color: #CD5C5C;
+}
+
+.menu li > ul li a{
+	padding: 10px;
+	text-transform: none;
+	background: #CD5C5C;
+}
+
+/* під меню */
+.menu li > ul li ul{
+	position: absolute;
+	right: -172%;
+	top: 0;
+	background: #CD5C5C;
+}
+
+.menu li:hover > ul{
+	display: block;
+}
+
+.img{
+	width: 100%;
+}
+
+h1{
+	margin-left: 10%;
+}
+
+.text{
+	margin-left: 10%;
+}
+
+p{
+	margin-right: 10%;
+}
+
+.footer{
+	background-color: #CD5C5C;
+	height: 100px;
+	padding-top: 40px;
+	text-align: center;
+}
+
+.footer a{
+	text-decoration: none;
+	color: black;
+}
+
+.social li{
+	list-style: none;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.social li a:hover{
+	color: white;
+}
+
+.footer-data{
+	text-align: left;
+	margin-left: 10%;
+}
